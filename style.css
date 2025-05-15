@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #558B2F; /* Verde escuro, remetendo à natureza */
+}
+
+p {
+    line-height: 1.6;
+}
+
+.imagem-destaque {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.botao-acao {
+    display: inline-block;
+    background-color: #8BC34A; /* Verde mais claro, vibrante */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.botao-acao:hover {
+    background-color: #689F38; /* Verde um pouco mais escuro no hover */
+}
+
+.alerta {
+    background-color: #FFCDD2; /* Vermelho claro para alertas */
+    color: #B71C1C; /* Vermelho escuro para o texto do alerta */
+    padding: 15px;
+    border: 1px solid #E57373;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para links */
+a {
+    color: #1976D2; /* Azul para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    color: #777;
+    border-radius: 0 0 8px 8px;
+}
